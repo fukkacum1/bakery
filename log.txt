@@ -1,0 +1,921 @@
+2025-05-26 at 14:40 | INFO | Поиск всех записей ProductIngredient по фильтрам: {}
+2025-05-26 at 14:40 | INFO | Найдено 7 записей.
+2025-05-26 at 14:41 | INFO | Поиск всех записей ProductIngredient по фильтрам: {'product_id': 9}
+2025-05-26 at 14:41 | INFO | Найдено 4 записей.
+2025-05-26 at 14:41 | INFO | [<ProductIngredient(product_id=9, ingredient_id=25, quantity=500.00)>, <ProductIngredient(product_id=9, ingredient_id=28, quantity=300.00)>, <ProductIngredient(product_id=9, ingredient_id=30, quantity=10.00)>, <ProductIngredient(product_id=9, ingredient_id=30, quantity=150.00)>]
+2025-05-26 at 23:16 | INFO | Поиск всех записей ProductStructure по фильтрам: {'product_id': 10}
+2025-05-26 at 23:16 | ERROR | Multiple exceptions: [Errno 61] Connect call failed ('::1', 5433, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 5433)
+2025-05-26 at 23:42 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-26 at 23:42 | ERROR | Ошибка при поиске всех записей по фильтрам {'bakery_id': 15}: Mapper 'Mapper[Product(products)]' has no property 'product_structures'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2025-05-26 at 23:47 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-26 at 23:47 | ERROR | Ошибка при поиске всех записей по фильтрам {'bakery_id': 15}: Mapper 'Mapper[Ingredient(ingredients)]' has no property 'product_structure'.  If this property was indicated from other mappers or configure events, ensure registry.configure() has been called.
+2025-05-26 at 23:50 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-26 at 23:50 | INFO | Найдено 2 записей.
+2025-05-26 at 23:52 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-26 at 23:52 | INFO | Найдено 2 записей.
+2025-05-26 at 23:52 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-26 at 23:57 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-26 at 23:57 | INFO | Найдено 2 записей.
+2025-05-26 at 23:57 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-27 at 01:25 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 01:25 | INFO | Найдено 2 записей.
+2025-05-27 at 01:25 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-27 at 01:44 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 01:44 | INFO | Найдено 2 записей.
+2025-05-27 at 01:44 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-27 at 01:52 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 01:52 | INFO | Найдено 2 записей.
+2025-05-27 at 01:52 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-27 at 01:55 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 01:55 | INFO | Найдено 2 записей.
+2025-05-27 at 01:55 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-27 at 01:59 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 01:59 | INFO | Найдено 2 записей.
+2025-05-27 at 01:59 | ERROR | Object of type Decimal is not JSON serializable
+2025-05-27 at 02:02 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 02:02 | INFO | Найдено 2 записей.
+2025-05-27 at 15:55 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 15}
+2025-05-27 at 15:55 | INFO | Найдено 2 записей.
+2025-05-27 at 15:55 | INFO | Запись Product с ID 9 найдена.
+2025-05-27 at 16:21 | INFO | Запись Product с ID 5 не найдена.
+2025-05-27 at 16:29 | INFO | Запись Product с ID 10 найдена.
+2025-05-27 at 16:29 | INFO | Запись Product с ID 11 найдена.
+2025-05-27 at 16:29 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 3}
+2025-05-27 at 16:29 | INFO | Найдено 2 записей.
+2025-05-27 at 16:29 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 4}
+2025-05-27 at 16:29 | INFO | Найдено 1 записей.
+2025-05-27 at 16:29 | INFO | Поиск всех записей Product по фильтрам: {}
+2025-05-27 at 16:29 | INFO | Найдено 3 записей.
+2025-05-27 at 16:30 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 3}
+2025-05-27 at 16:30 | INFO | Найдено 2 записей.
+2025-05-27 at 16:30 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 4}
+2025-05-27 at 16:30 | INFO | Найдено 1 записей.
+2025-05-27 at 16:30 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 16:30 | ERROR | Ошибка при поиске всех записей по фильтрам {}: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column product_structures.id does not exist
+[SQL: SELECT product_structures.id, product_structures.product_id, product_structures.ingredient_id, product_structures.created_at, product_structures.updated_at 
+FROM product_structures]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 at 17:56 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 17:56 | ERROR | Ошибка при поиске всех записей по фильтрам {}: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column product_structures.id does not exist
+[SQL: SELECT product_structures.product_id, product_structures.ingredient_id, product_structures.id, product_structures.created_at, product_structures.updated_at 
+FROM product_structures]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 at 17:57 | INFO | Поиск всех записей ProductStructure по фильтрам: {'product_id': 10}
+2025-05-27 at 17:57 | ERROR | Ошибка при поиске всех записей по фильтрам {'product_id': 10}: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column product_structures.id does not exist
+[SQL: SELECT product_structures.product_id, product_structures.ingredient_id, product_structures.id, product_structures.created_at, product_structures.updated_at 
+FROM product_structures 
+WHERE product_structures.product_id = $1::INTEGER]
+[parameters: (10,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 at 17:57 | ERROR | (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedColumnError'>: column product_structures.id does not exist
+[SQL: SELECT product_structures.product_id, product_structures.ingredient_id, product_structures.id, product_structures.created_at, product_structures.updated_at 
+FROM product_structures 
+WHERE product_structures.product_id = $1::INTEGER]
+[parameters: (10,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 at 18:22 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 18:22 | INFO | Найдено 8 записей.
+2025-05-27 at 18:23 | INFO | Поиск всех записей ProductStructure по фильтрам: {'product_id': 4}
+2025-05-27 at 18:23 | INFO | Найдено 2 записей.
+2025-05-27 at 18:23 | INFO | [<ProductStructure(product_id=4, ingredient_id=1)>, <ProductStructure(product_id=4, ingredient_id=2)>]
+2025-05-27 at 18:45 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 18:45 | INFO | Найдено 8 записей.
+2025-05-27 at 19:33 | INFO | Поиск изделия с максимальным количеством ингредиентов
+2025-05-27 at 19:33 | INFO | Максимальное количество ингредиентов: 3 для продукта с ID 5
+2025-05-27 at 19:38 | INFO | Поиск изделия с максимальным количеством ингредиентов
+2025-05-27 at 19:38 | INFO | Максимальное количество ингредиентов: 3 для продукта с ID 5
+2025-05-27 at 19:39 | INFO | Поиск изделия с максимальным количеством ингредиентов
+2025-05-27 at 19:39 | INFO | Максимальное количество ингредиентов: 3 для продукта с ID 5
+2025-05-27 at 19:39 | INFO | Запись Product с ID 5 найдена.
+2025-05-27 at 20:03 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:03 | ERROR | Ошибка в обработке запроса `/bakeries/sorted`: BakeryDao.get_sorted_bakeries_by_production_volume() takes 1 positional argument but 2 were given
+2025-05-27 at 20:03 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:03 | ERROR | Ошибка в обработке запроса `/bakeries/sorted`: BakeryDao.get_sorted_bakeries_by_production_volume() takes 1 positional argument but 2 were given
+2025-05-27 at 20:05 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:05 | ERROR | Ошибка в обработке запроса `/bakeries/sorted`: 'AsyncSession' object has no attribute 'query'
+2025-05-27 at 20:07 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:07 | ERROR | Ошибка в обработке запроса `/bakeries/sorted`: BakeryDao.get_sorted_bakeries_by_production_volume() missing 1 required positional argument: 'session'
+2025-05-27 at 20:08 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:08 | ERROR | Ошибка в обработке запроса `/bakeries/sorted`: BakeryDao.get_sorted_bakeries_by_production_volume() missing 1 required positional argument: 'session'
+2025-05-27 at 20:10 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:10 | INFO | Найдено 2 хлебозаводов
+2025-05-27 at 20:28 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 20:28 | INFO | Найдено 2 хлебозаводов
+2025-05-27 at 20:33 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 3}
+2025-05-27 at 20:33 | INFO | Найдено 0 записей.
+2025-05-27 at 20:33 | ERROR | 404: Изделия для хлебозавода с id=3 не найдены
+2025-05-27 at 20:33 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 1}
+2025-05-27 at 20:33 | INFO | Найдено 2 записей.
+2025-05-27 at 21:18 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 3}
+2025-05-27 at 21:18 | INFO | Найдено 0 записей.
+2025-05-27 at 21:18 | ERROR | 404: Изделия для хлебозавода с id=3 не найдены
+2025-05-27 at 21:18 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 1}
+2025-05-27 at 21:18 | INFO | Найдено 2 записей.
+2025-05-27 at 21:24 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 1}
+2025-05-27 at 21:24 | INFO | Найдено 2 записей.
+2025-05-27 at 21:27 | INFO | Суммарная стоимость всех изделий, выпускаемых хлебозаводом с ID: 1
+2025-05-27 at 21:27 | INFO | Суммарная стоимость изделий хлебозавода с ID: 1: 25000.0
+2025-05-27 at 21:27 | INFO | Суммарная стоимость всех изделий, выпускаемых хлебозаводом с ID: 2
+2025-05-27 at 21:27 | INFO | Суммарная стоимость изделий хлебозавода с ID: 2: 10500.0
+2025-05-27 at 21:27 | INFO | Поиск всех записей Product по фильтрам: {}
+2025-05-27 at 21:27 | INFO | Найдено 3 записей.
+2025-05-27 at 21:28 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 1}
+2025-05-27 at 21:28 | INFO | Найдено 2 записей.
+2025-05-27 at 21:28 | INFO | Запись Product с ID 4 найдена.
+2025-05-27 at 21:28 | INFO | Запись Product с ID 5 найдена.
+2025-05-27 at 21:28 | INFO | Запись Product с ID 6 найдена.
+2025-05-27 at 21:28 | INFO | Суммарная стоимость всех изделий, выпускаемых хлебозаводом с ID: 2
+2025-05-27 at 21:28 | INFO | Суммарная стоимость изделий хлебозавода с ID: 2: 10500.0
+2025-05-27 at 21:28 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 21:28 | INFO | Найдено 8 записей.
+2025-05-27 at 21:28 | INFO | Поиск всех записей ProductStructure по фильтрам: {'product_id': 4}
+2025-05-27 at 21:28 | INFO | Найдено 2 записей.
+2025-05-27 at 21:28 | INFO | [<ProductStructure(product_id=4, ingredient_id=1)>, <ProductStructure(product_id=4, ingredient_id=2)>]
+2025-05-27 at 21:29 | INFO | Поиск всех записей ProductStructure по фильтрам: {'product_id': 5}
+2025-05-27 at 21:29 | INFO | Найдено 3 записей.
+2025-05-27 at 21:29 | INFO | [<ProductStructure(product_id=5, ingredient_id=1)>, <ProductStructure(product_id=5, ingredient_id=2)>, <ProductStructure(product_id=5, ingredient_id=3)>]
+2025-05-27 at 21:35 | INFO | Поиск изделия с максимальным количеством ингредиентов
+2025-05-27 at 21:35 | INFO | Максимальное количество ингредиентов: 3 для продукта с ID 5
+2025-05-27 at 21:35 | INFO | Запись Product с ID 5 найдена.
+2025-05-27 at 21:35 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 21:35 | INFO | Найдено 2 хлебозаводов
+2025-05-27 at 21:47 | ERROR | Ошибка при поиске невалидных изделий: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: integer * text
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT products.name AS product_name, ingredients.name AS ingredient_name, bakeries.production_date, ingredients.date_delivery + CAST(ingredients.shelf_life AS INTEGER) * text($1::VARCHAR) AS expiration_date 
+FROM products JOIN product_structures ON products.id = product_structures.product_id JOIN ingredients ON product_structures.ingredient_id = ingredients.id JOIN bakeries ON products.bakery_id = bakeries.id 
+WHERE bakeries.production_date > ingredients.date_delivery + CAST(ingredients.shelf_life AS INTEGER) * text($2::VARCHAR)]
+[parameters: ("INTERVAL '1 day'", "INTERVAL '1 day'")]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 at 21:47 | ERROR | Ошибка при проверке изделий на соответствие: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedFunctionError'>: operator does not exist: integer * text
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+[SQL: SELECT products.name AS product_name, ingredients.name AS ingredient_name, bakeries.production_date, ingredients.date_delivery + CAST(ingredients.shelf_life AS INTEGER) * text($1::VARCHAR) AS expiration_date 
+FROM products JOIN product_structures ON products.id = product_structures.product_id JOIN ingredients ON product_structures.ingredient_id = ingredients.id JOIN bakeries ON products.bakery_id = bakeries.id 
+WHERE bakeries.production_date > ingredients.date_delivery + CAST(ingredients.shelf_life AS INTEGER) * text($2::VARCHAR)]
+[parameters: ("INTERVAL '1 day'", "INTERVAL '1 day'")]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 at 21:49 | ERROR | Ошибка при проверке изделий на соответствие: Function.__init__() got an unexpected keyword argument 'days'
+2025-05-27 at 21:49 | ERROR | Ошибка при проверке изделий на соответствие: Function.__init__() got an unexpected keyword argument 'days'
+2025-05-27 at 21:49 | ERROR | Ошибка при проверке изделий на соответствие: Function.__init__() got an unexpected keyword argument 'days'
+2025-05-27 at 21:50 | ERROR | Ошибка при проверке изделий на соответствие: name 'text' is not defined
+2025-05-27 at 21:51 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:00 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:01 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:01 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:02 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:04 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:04 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:05 | ERROR | Ошибка при проверке изделий на соответствие: Object of type date is not JSON serializable
+2025-05-27 at 22:07 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:08 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:11 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:12 | INFO | Поиск всех записей Product по фильтрам: {}
+2025-05-27 at 22:12 | INFO | Найдено 4 записей.
+2025-05-27 at 22:12 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 1}
+2025-05-27 at 22:12 | INFO | Найдено 2 записей.
+2025-05-27 at 22:12 | INFO | Поиск всех записей Product по фильтрам: {'bakery_id': 2}
+2025-05-27 at 22:12 | INFO | Найдено 2 записей.
+2025-05-27 at 22:12 | INFO | Запись Product с ID 7 найдена.
+2025-05-27 at 22:13 | INFO | Суммарная стоимость всех изделий, выпускаемых хлебозаводом с ID: 1
+2025-05-27 at 22:13 | INFO | Суммарная стоимость изделий хлебозавода с ID: 1: 25000.0
+2025-05-27 at 22:13 | INFO | Суммарная стоимость всех изделий, выпускаемых хлебозаводом с ID: 2
+2025-05-27 at 22:13 | INFO | Суммарная стоимость изделий хлебозавода с ID: 2: 30000.0
+2025-05-27 at 22:13 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:13 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:13 | INFO | Найдено 11 записей.
+2025-05-27 at 22:16 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:16 | INFO | Найдено 11 записей.
+2025-05-27 at 22:16 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:16 | INFO | Найдено 11 записей.
+2025-05-27 at 22:16 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:16 | INFO | Найдено 11 записей.
+2025-05-27 at 22:17 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:17 | INFO | Найдено 11 записей.
+2025-05-27 at 22:17 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:17 | INFO | Найдено 11 записей.
+2025-05-27 at 22:17 | INFO | Поиск всех записей ProductStructure по фильтрам: {}
+2025-05-27 at 22:17 | INFO | Найдено 11 записей.
+2025-05-27 at 22:18 | INFO | Поиск изделия с максимальным количеством ингредиентов
+2025-05-27 at 22:18 | INFO | Максимальное количество ингредиентов: 3 для продукта с ID 5
+2025-05-27 at 22:18 | INFO | Запись Product с ID 5 найдена.
+2025-05-27 at 22:18 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-27 at 22:18 | INFO | Найдено 2 хлебозаводов
+2025-05-27 at 22:19 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:20 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:22 | ERROR | Ошибка при проверке изделий на соответствие: 'AsyncSession' object has no attribute 'find_invalid_products'
+2025-05-27 at 22:25 | ERROR | Ошибка при проверке изделий на соответствие: 'AsyncSession' object has no attribute 'find_invalid_products'
+2025-05-27 at 22:28 | ERROR | Ошибка при проверке изделий на соответствие: 'AsyncSession' object has no attribute 'find_invalid_products'
+2025-05-27 at 22:28 | ERROR | Ошибка при проверке изделий на соответствие: 'AsyncSession' object has no attribute 'find_invalid_products'
+2025-05-27 at 22:31 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:31 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:32 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:34 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-27 at 22:35 | ERROR | Ошибка при проверке изделий на соответствие: 404: Нарушений не найдено
+2025-05-28 at 00:19 | ERROR | Ошибка при добавлении продукта в хлебозавод 1: 'dict' object has no attribute 'model_dump'
+2025-05-28 at 00:30 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'AsyncSession' object has no attribute 'query'
+2025-05-28 at 00:31 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'AsyncSession' object has no attribute 'query'
+2025-05-28 at 00:31 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'AsyncSession' object has no attribute 'query'
+2025-05-28 at 00:35 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (9, 1, null, 2025-05-27 21:35:10.364084, 2025-05-27 21:35:10.364084).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (9, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 00:39 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (10, 1, null, 2025-05-27 21:39:49.365946, 2025-05-27 21:39:49.365946).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (10, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:02 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:02 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:02 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: BaseDAO.add() missing 1 required positional argument: 'self'
+2025-05-28 at 01:02 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:02 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:02 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'ingredients': [1]}
+2025-05-28 at 01:02 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'ingredients' is an invalid keyword argument for Product
+2025-05-28 at 01:02 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:02 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:02 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'ingredients': [1]}
+2025-05-28 at 01:02 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'ingredients' is an invalid keyword argument for Product
+2025-05-28 at 01:06 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:06 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:06 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0}
+2025-05-28 at 01:06 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:06 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "bakery_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (string, 0.00, 0, 0, 0.00, null, 11, 2025-05-27 22:06:04.903988, 2025-05-27 22:06:04.903988).
+[SQL: INSERT INTO products (name, weight, shelf_life, production_volume, price, bakery_id) VALUES ($1::VARCHAR, $2::NUMERIC(10, 2), $3::INTEGER, $4::INTEGER, $5::NUMERIC(10, 2), $6::INTEGER) RETURNING products.id, products.created_at, products.updated_at]
+[parameters: ('string', 0.0, 0, 0, 0.0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:06 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "bakery_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (string, 0.00, 0, 0, 0.00, null, 11, 2025-05-27 22:06:04.903988, 2025-05-27 22:06:04.903988).
+[SQL: INSERT INTO products (name, weight, shelf_life, production_volume, price, bakery_id) VALUES ($1::VARCHAR, $2::NUMERIC(10, 2), $3::INTEGER, $4::INTEGER, $5::NUMERIC(10, 2), $6::INTEGER) RETURNING products.id, products.created_at, products.updated_at]
+[parameters: ('string', 0.0, 0, 0, 0.0, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:07 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:07 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:07 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: app.schemas.ProductCreate() got multiple values for keyword argument 'bakery_id'
+2025-05-28 at 01:08 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:08 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:08 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:08 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:08 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 12, 'ingredient_id': 1}
+2025-05-28 at 01:08 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:08 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (12, 1, null, 2025-05-27 22:08:07.277679, 2025-05-27 22:08:07.277679).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (12, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:08 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (12, 1, null, 2025-05-27 22:08:07.277679, 2025-05-27 22:08:07.277679).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (12, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:08 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:08 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:08 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:08 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:08 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 13, 'ingredient_id': 1}
+2025-05-28 at 01:08 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:08 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (13, 1, null, 2025-05-27 22:08:09.637402, 2025-05-27 22:08:09.637402).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (13, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:08 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (13, 1, null, 2025-05-27 22:08:09.637402, 2025-05-27 22:08:09.637402).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (13, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:12 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:12 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:12 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:12 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:12 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 14, 'ingredient_id': 1}
+2025-05-28 at 01:12 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:12 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (14, 1, null, 2025-05-27 22:12:08.991234, 2025-05-27 22:12:08.991234).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (14, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:12 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (14, 1, null, 2025-05-27 22:12:08.991234, 2025-05-27 22:12:08.991234).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (14, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:15 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:15 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:15 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:15 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:15 | INFO | Запись Product успешно добавлена с ID: 15
+2025-05-28 at 01:15 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 15, 'ingredient_id': 1}
+2025-05-28 at 01:15 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:15 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (15, 1, null, 2025-05-27 22:15:00.259533, 2025-05-27 22:15:00.259533).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (15, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:15 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (15, 1, null, 2025-05-27 22:15:00.259533, 2025-05-27 22:15:00.259533).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.created_at, product_structures.updated_at]
+[parameters: (15, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:15 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:15 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:15 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:15 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:15 | INFO | Запись Product успешно добавлена с ID: 16
+2025-05-28 at 01:15 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 16, 'ingredient_id': 1}
+2025-05-28 at 01:15 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:15 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (16, 1, null, 2025-05-27 22:15:54.510512, 2025-05-27 22:15:54.510512).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (16, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:15 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (16, 1, null, 2025-05-27 22:15:54.510512, 2025-05-27 22:15:54.510512).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (16, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:16 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:16 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:16 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:16 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:16 | INFO | Запись Product успешно добавлена с ID: 17
+2025-05-28 at 01:16 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 17, 'ingredient_id': 1}
+2025-05-28 at 01:16 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:16 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (17, 1, null, 2025-05-27 22:16:49.296669, 2025-05-27 22:16:49.296669).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (17, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:16 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (17, 1, null, 2025-05-27 22:16:49.296669, 2025-05-27 22:16:49.296669).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (17, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:18 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:18 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:18 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:18 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:18 | ERROR | Ошибка при добавлении записи: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-05-28 at 01:18 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-05-28 at 01:18 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:18 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:18 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:18 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:18 | INFO | Запись Product успешно добавлена с ID: 19
+2025-05-28 at 01:18 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-05-28 at 01:19 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:19 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:19 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:19 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:19 | INFO | Запись Product успешно добавлена с ID: 20
+2025-05-28 at 01:19 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'dict' object has no attribute 'id'
+2025-05-28 at 01:19 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:19 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:19 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:19 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:19 | INFO | Запись Product успешно добавлена с ID: 21
+2025-05-28 at 01:19 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 21, 'ingredient_id': 1}
+2025-05-28 at 01:19 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:19 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (21, 1, null, 2025-05-27 22:19:31.449161, 2025-05-27 22:19:31.449161).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (21, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:19 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (21, 1, null, 2025-05-27 22:19:31.449161, 2025-05-27 22:19:31.449161).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (21, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:21 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:21 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:21 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'async_sessionmaker' object does not support the asynchronous context manager protocol
+2025-05-28 at 01:21 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:21 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:21 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'async_sessionmaker' object does not support the asynchronous context manager protocol
+2025-05-28 at 01:21 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:21 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:21 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:21 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:21 | INFO | Запись Product успешно добавлена с ID: 22
+2025-05-28 at 01:21 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 22, 'ingredient_id': 1}
+2025-05-28 at 01:21 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:21 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (22, 1, null, 2025-05-27 22:21:43.119579, 2025-05-27 22:21:43.119579).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (22, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:21 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (22, 1, null, 2025-05-27 22:21:43.119579, 2025-05-27 22:21:43.119579).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (22, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:22 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:22 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:22 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:22 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:22 | INFO | Запись Product успешно добавлена с ID: 23
+2025-05-28 at 01:22 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 23, 'ingredient_id': 1}
+2025-05-28 at 01:22 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:22 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (23, 1, null, 2025-05-27 22:22:18.020212, 2025-05-27 22:22:18.020212).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (23, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:22 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (23, 1, null, 2025-05-27 22:22:18.020212, 2025-05-27 22:22:18.020212).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (23, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:23 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:23 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:23 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:23 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:23 | ERROR | Ошибка при добавлении записи: Instance '<Product at 0x104219550>' is not persistent within this Session
+2025-05-28 at 01:23 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: Instance '<Product at 0x104219550>' is not persistent within this Session
+2025-05-28 at 01:23 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:23 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:23 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:23 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:23 | INFO | Запись Product успешно добавлена с ID: None
+2025-05-28 at 01:23 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 1 validation error for ProductStructureCreate
+product_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-05-28 at 01:23 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:23 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:23 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:23 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:23 | ERROR | Ошибка при добавлении записи: Instance '<Product at 0x106a09550>' is not persistent within this Session
+2025-05-28 at 01:23 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: Instance '<Product at 0x106a09550>' is not persistent within this Session
+2025-05-28 at 01:24 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:24 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:24 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:24 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:24 | INFO | Запись Product успешно добавлена с ID: 25
+2025-05-28 at 01:24 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 25, 'ingredient_id': 1}
+2025-05-28 at 01:24 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:24 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (25, 1, null, 2025-05-27 22:24:14.465942, 2025-05-27 22:24:14.465942).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (25, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:24 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (25, 1, null, 2025-05-27 22:24:14.465942, 2025-05-27 22:24:14.465942).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (25, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:24 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:24 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:24 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:24 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:24 | INFO | Запись Product успешно добавлена с ID: 26
+2025-05-28 at 01:24 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'async for' requires an object with __aiter__ method, got list
+2025-05-28 at 01:25 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:25 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:25 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:25 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:25 | INFO | Запись Product успешно добавлена с ID: 27
+2025-05-28 at 01:25 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 27, 'ingredient_id': 1}
+2025-05-28 at 01:25 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:25 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (27, 1, null, 2025-05-27 22:25:44.700191, 2025-05-27 22:25:44.700191).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (27, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:27 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:27 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:27 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:27 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:27 | INFO | Запись Product успешно добавлена с ID: 28
+2025-05-28 at 01:27 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 28, 'ingredient_id': 1}
+2025-05-28 at 01:27 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:27 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (28, 1, null, 2025-05-27 22:27:07.433705, 2025-05-27 22:27:07.433705).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (28, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:28 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:28 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:28 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:28 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:28 | INFO | Запись Product успешно добавлена с ID: 29
+2025-05-28 at 01:28 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 29, 'ingredient_id': 1}
+2025-05-28 at 01:28 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:28 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (29, 1, null, 2025-05-27 22:28:53.037916, 2025-05-27 22:28:53.037916).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (29, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:30 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:30 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:30 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:30 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:30 | INFO | Запись Product успешно добавлена с ID: 30
+2025-05-28 at 01:30 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 30, 'ingredient_id': 1}
+2025-05-28 at 01:30 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:30 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (30, 1, null, 2025-05-27 22:30:47.308155, 2025-05-27 22:30:47.308155).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (30, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:31 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:31 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:31 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:31 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:31 | INFO | Запись Product успешно добавлена с ID: 31
+2025-05-28 at 01:31 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 31, 'ingredient_id': 1}
+2025-05-28 at 01:31 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:31 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (31, 1, null, 2025-05-27 22:31:05.629522, 2025-05-27 22:31:05.629522).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (31, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:31 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:31 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:31 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:31 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:31 | INFO | Запись Product успешно добавлена с ID: 32
+2025-05-28 at 01:31 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 32, 'ingredient_id': 1}
+2025-05-28 at 01:31 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:31 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (32, 1, null, 2025-05-27 22:31:13.938434, 2025-05-27 22:31:13.938434).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (32, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:32 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:32 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:32 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:32 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:32 | INFO | Запись Product успешно добавлена с ID: 33
+2025-05-28 at 01:32 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 33, 'ingredient_id': 1}
+2025-05-28 at 01:32 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:32 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (33, 1, null, 2025-05-27 22:32:31.043212, 2025-05-27 22:32:31.043212).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (33, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:32 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (33, 1, null, 2025-05-27 22:32:31.043212, 2025-05-27 22:32:31.043212).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (33, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:33 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:33 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:33 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:33 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:33 | INFO | Запись Product успешно добавлена с ID: 34
+2025-05-28 at 01:33 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 34, 'ingredient_id': 1}
+2025-05-28 at 01:33 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:33 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (34, 1, null, 2025-05-27 22:33:02.644481, 2025-05-27 22:33:02.644481).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (34, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:33 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (34, 1, null, 2025-05-27 22:33:02.644481, 2025-05-27 22:33:02.644481).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (34, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:33 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:33 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:33 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:33 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:33 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:33 | INFO | Запись Product успешно добавлена с ID: 35
+2025-05-28 at 01:33 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 35, 'ingredient_id': 1}
+2025-05-28 at 01:33 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:33 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (35, 1, null, 2025-05-27 22:33:09.373511, 2025-05-27 22:33:09.373511).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (35, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:33 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (35, 1, null, 2025-05-27 22:33:09.373511, 2025-05-27 22:33:09.373511).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (35, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:33 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:33 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:33 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:33 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:33 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:33 | INFO | Запись Product успешно добавлена с ID: 36
+2025-05-28 at 01:33 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 36, 'ingredient_id': 1}
+2025-05-28 at 01:33 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:33 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (36, 1, null, 2025-05-27 22:33:43.726621, 2025-05-27 22:33:43.726621).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (36, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:33 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (36, 1, null, 2025-05-27 22:33:43.726621, 2025-05-27 22:33:43.726621).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (36, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:35 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:35 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:35 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:35 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:35 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:35 | INFO | Запись Product успешно добавлена с ID: 37
+2025-05-28 at 01:35 | INFO | Добавление записи ProductStructure с параметрами: {'product_id': 37, 'ingredient_id': 1}
+2025-05-28 at 01:35 | INFO | Запись ProductStructure успешно добавлена.
+2025-05-28 at 01:35 | ERROR | Ошибка при добавлении записи: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (37, 1, null, 2025-05-27 22:35:00.097375, 2025-05-27 22:35:00.097375).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (37, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:35 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (37, 1, null, 2025-05-27 22:35:00.097375, 2025-05-27 22:35:00.097375).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (37, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:37 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:37 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:37 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:37 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:37 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:37 | INFO | Запись Product успешно добавлена с ID: 38
+2025-05-28 at 01:37 | INFO | Добавление нескольких записей ProductStructure. Количество: 1
+2025-05-28 at 01:37 | INFO | Успешно добавлено 1 записей.
+2025-05-28 at 01:37 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (38, 2, null, 2025-05-27 22:37:28.898609, 2025-05-27 22:37:28.898609).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (38, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:37 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (38, 2, null, 2025-05-27 22:37:28.898609, 2025-05-27 22:37:28.898609).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (38, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:38 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:38 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:38 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:38 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:38 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:38 | INFO | Запись Product успешно добавлена с ID: 39
+2025-05-28 at 01:38 | INFO | Добавление нескольких записей ProductStructure. Количество: 1
+2025-05-28 at 01:38 | INFO | Успешно добавлено 1 записей.
+2025-05-28 at 01:38 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (39, 2, null, 2025-05-27 22:38:38.987844, 2025-05-27 22:38:38.987844).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (39, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:38 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (39, 2, null, 2025-05-27 22:38:38.987844, 2025-05-27 22:38:38.987844).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (39, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:44 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:44 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:44 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:44 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:44 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:44 | INFO | Запись Product успешно добавлена с ID: 40
+2025-05-28 at 01:44 | INFO | Добавление нескольких записей ProductStructure. Количество: 1
+2025-05-28 at 01:44 | INFO | Успешно добавлено 1 записей.
+2025-05-28 at 01:44 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (40, 2, null, 2025-05-27 22:44:16.228241, 2025-05-27 22:44:16.228241).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (40, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:44 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (40, 2, null, 2025-05-27 22:44:16.228241, 2025-05-27 22:44:16.228241).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (40, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:45 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:45 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:45 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:45 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:45 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:45 | INFO | Запись Product успешно добавлена с ID: 41
+2025-05-28 at 01:45 | INFO | Добавление нескольких записей ProductStructure. Количество: 1
+2025-05-28 at 01:45 | INFO | Успешно добавлено 1 записей.
+2025-05-28 at 01:45 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (41, 2, null, 2025-05-27 22:45:37.985529, 2025-05-27 22:45:37.985529).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (41, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:45 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (41, 2, null, 2025-05-27 22:45:37.985529, 2025-05-27 22:45:37.985529).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) VALUES ($1::INTEGER, $2::INTEGER) RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at]
+[parameters: (41, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:46 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:46 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:46 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:46 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:46 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:46 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'Product' object is not iterable
+2025-05-28 at 01:46 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:46 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:46 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:46 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:46 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:46 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'Product' object is not iterable
+2025-05-28 at 01:47 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:47 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:47 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:47 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:47 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:47 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'Product' object is not iterable
+2025-05-28 at 01:49 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:49 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:49 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:49 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:49 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:49 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'Product' object is not iterable
+2025-05-28 at 01:51 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:51 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:51 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:51 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:51 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:51 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'Product' object is not iterable
+2025-05-28 at 01:51 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:51 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:51 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:51 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:51 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:51 | INFO | Запись Product успешно добавлена с ID: 42
+2025-05-28 at 01:51 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: 'dict' object has no attribute 'model_dump'
+2025-05-28 at 01:52 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:52 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:52 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:52 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:52 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:52 | INFO | Запись Product успешно добавлена с ID: 43
+2025-05-28 at 01:52 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 01:52 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 01:52 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (43, 1, null, 2025-05-27 22:52:21.993683, 2025-05-27 22:52:21.993683).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (43, 1, 43, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:52 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (43, 1, null, 2025-05-27 22:52:21.993683, 2025-05-27 22:52:21.993683).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (43, 1, 43, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:52 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:52 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:52 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:52 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:52 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:52 | INFO | Запись Product успешно добавлена с ID: 44
+2025-05-28 at 01:52 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 01:52 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 01:52 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (44, 1, null, 2025-05-27 22:52:58.204079, 2025-05-27 22:52:58.204079).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (44, 1, 44, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:52 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (44, 1, null, 2025-05-27 22:52:58.204079, 2025-05-27 22:52:58.204079).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (44, 1, 44, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:58 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:58 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:58 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:58 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:58 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:58 | INFO | Запись Product успешно добавлена с ID: 45
+2025-05-28 at 01:58 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 01:58 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 01:58 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (45, 1, null, 2025-05-27 22:58:42.511291, 2025-05-27 22:58:42.511291).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (45, 1, 45, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:58 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (45, 1, null, 2025-05-27 22:58:42.511291, 2025-05-27 22:58:42.511291).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (45, 1, 45, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:59 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:59 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:59 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:59 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:59 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:59 | INFO | Запись Product успешно добавлена с ID: 46
+2025-05-28 at 01:59 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 01:59 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 01:59 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (46, 1, null, 2025-05-27 22:59:09.286457, 2025-05-27 22:59:09.286457).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (46, 1, 46, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:59 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (46, 1, null, 2025-05-27 22:59:09.286457, 2025-05-27 22:59:09.286457).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (46, 1, 46, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:59 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 01:59 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 01:59 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 01:59 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 01:59 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 01:59 | INFO | Запись Product успешно добавлена с ID: 47
+2025-05-28 at 01:59 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 01:59 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 01:59 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (47, 1, null, 2025-05-27 22:59:59.145726, 2025-05-27 22:59:59.145726).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (47, 1, 47, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 01:59 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (47, 1, null, 2025-05-27 22:59:59.145726, 2025-05-27 22:59:59.145726).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (47, 1, 47, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 02:00 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 02:00 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 02:00 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 02:00 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 02:00 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 02:00 | INFO | Запись Product успешно добавлена с ID: 48
+2025-05-28 at 02:00 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 02:00 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 02:00 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (48, 1, null, 2025-05-27 23:00:02.088984, 2025-05-27 23:00:02.088984).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (48, 1, 48, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 02:00 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (48, 1, null, 2025-05-27 23:00:02.088984, 2025-05-27 23:00:02.088984).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (48, 1, 48, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 02:00 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 02:00 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 02:00 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 02:00 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 02:00 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 02:00 | INFO | Запись Product успешно добавлена с ID: 49
+2025-05-28 at 02:00 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 02:00 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 02:00 | ERROR | Ошибка при добавлении нескольких записей: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (49, 1, null, 2025-05-27 23:00:40.908236, 2025-05-27 23:00:40.908236).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (49, 1, 49, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 02:00 | ERROR | Ошибка при добавлении изделия в хлебозавод 1: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column "id" of relation "product_structures" violates not-null constraint
+DETAIL:  Failing row contains (49, 1, null, 2025-05-27 23:00:40.908236, 2025-05-27 23:00:40.908236).
+[SQL: INSERT INTO product_structures (product_id, ingredient_id) SELECT p0::INTEGER, p1::INTEGER FROM (VALUES ($1::INTEGER, $2::INTEGER, 0), ($3::INTEGER, $4::INTEGER, 1)) AS imp_sen(p0, p1, sen_counter) ORDER BY sen_counter RETURNING product_structures.id, product_structures.created_at, product_structures.updated_at, product_structures.id AS id__1]
+[parameters: (49, 1, 49, 2)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-28 at 02:01 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 02:01 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 02:01 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 02:01 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 02:01 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 02:01 | INFO | Запись Product успешно добавлена с ID: 50
+2025-05-28 at 02:01 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 02:01 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 09:18 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 09:18 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 09:18 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 09:18 | INFO | Добавление записи Product с параметрами: {'name': 'string', 'weight': 0.0, 'shelf_life': 0, 'production_volume': 0, 'price': 0.0, 'bakery_id': 1}
+2025-05-28 at 09:18 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 09:18 | INFO | Запись Product успешно добавлена с ID: 51
+2025-05-28 at 09:18 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 09:18 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 09:21 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 09:21 | INFO | Запись Ingredient с ID 1 найдена.
+2025-05-28 at 09:21 | INFO | Запись Ingredient с ID 2 найдена.
+2025-05-28 at 09:21 | INFO | Добавление записи Product с параметрами: {'name': 'булка', 'weight': 40.0, 'shelf_life': 4, 'production_volume': 70, 'price': 30.0, 'bakery_id': 1}
+2025-05-28 at 09:21 | INFO | Запись Product успешно добавлена.
+2025-05-28 at 09:21 | INFO | Запись Product успешно добавлена с ID: 52
+2025-05-28 at 09:21 | INFO | Добавление нескольких записей ProductStructure. Количество: 2
+2025-05-28 at 09:21 | INFO | Успешно добавлено 2 записей.
+2025-05-28 at 18:05 | INFO | Запись Bakery с ID 1 найдена.
+2025-05-28 at 18:05 | INFO | Запись Product с ID 51 найдена.
+2025-05-28 at 18:05 | INFO | Удаление изделия с ID: 51
+2025-05-28 at 18:05 | INFO | Связи для изделия с ID 51 успешно удалены
+2025-05-28 at 18:05 | INFO | Изделие с ID 51 успешно удалено
+2025-05-28 at 18:25 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-28 at 18:25 | INFO | Найдено 2 хлебозаводов
+2025-05-28 at 18:26 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-28 at 18:26 | INFO | Найдено 2 хлебозаводов
+2025-05-28 at 18:29 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-28 at 18:29 | INFO | Найдено 2 хлебозаводов
+2025-05-28 at 18:32 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-28 at 18:32 | INFO | Найдено 2 хлебозаводов
+2025-05-28 at 21:23 | INFO | Запрос на сортировку хлебозаводов начат
+2025-05-28 at 21:23 | INFO | Найдено 2 хлебозаводов
+2025-05-28 at 21:23 | INFO | 
+
+URL: /bakeries/sorted
+Метод: GET
+Статус: 200
+Тело ответа: [
+    {
+        "bakery_name": "Хлебозавод №1",
+        "total_production_volume": 470
+    },
+    {
+        "bakery_name": "Хлебозавод №2",
+        "total_production_volume": 200
+    }
+]
