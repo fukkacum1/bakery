@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BreadFactory</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+
+</head>
+<body>
+  <div class="w-[1200px] px-8 py-6 mx-auto bg-gradient-to-br from-amber-50 to-orange-50 min-h-screen">
+    <div class="max-w-7xl mx-auto">
+      <header class="mb-8 text-center">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center">
+            <span class="material-symbols-outlined text-white text-2xl">bakery_dining</span>
+          </div>
+          <h1 class="text-4xl font-bold text-gray-800">Система управления хлебозаводом</h1>
+        </div>
+        <p class="text-gray-600 text-lg">Управление изделиями, ингредиентами и хлебозаводами</p>
+      </header>
+
+      <nav class="mb-8">
+        <div class="bg-white rounded-xl shadow-lg p-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-gradient-to-r from-primary-500 to-primary-600 p-4 rounded-lg text-white hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-2xl">inventory</span>
+                <div>
+                  <h3 class="font-semibold">Изделия</h3>
+                  <p class="text-sm opacity-90">Управление продукцией</p>
+                </div>
+              </div>
+            </div>
+            <div class="bg-gradient-to-r from-green-500 to-green-600 p-4 rounded-lg text-white hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-2xl">restaurant</span>
+                <div>
+                  <h3 class="font-semibold">Ингредиенты</h3>
+                  <p class="text-sm opacity-90">Состав продуктов</p>
+                </div>
+              </div>
+            </div>
+            <div class="bg-gradient-to-r from-blue-500 to-blue-600 p-4 rounded-lg text-white hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-2xl">factory</span>
+                <div>
+                  <h3 class="font-semibold">Хлебозаводы</h3>
+                  <p class="text-sm opacity-90">Производственные площадки</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <section class="bg-white rounded-xl shadow-lg p-6">
+          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+            <span class="material-symbols-outlined text-primary-500">add_circle</span>
+            Добавить изделие
+          </h2>
+          <form id="addProductForm" class="space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Название</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                  placeholder="Введите название изделия"
+                />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Вес (кг)</label>
+                <input
+                  type="number"
+                  step="0.1"
+                  name="weight"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                  placeholder="0.0"
+                />
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Срок годности (дни)</label>
+                <input
+                  type="number"
+                  name="shelf_life"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                  placeholder="7"
+                />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Цена (руб.)</label>
+                <input
+                  type="number"
+                  step="0.01"
+                  name="price"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                  placeholder="0.00"
+                />
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">ID хлебозавода</label>
+              <input
+                type="number"
+                name="bakeryId"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                placeholder="1"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-primary-500 text-white py-3 px-6 rounded-lg hover:bg-primary-600 transition-colors duration-200 font-medium flex items-center justify-center gap-2"
+            >
+              <span class="material-symbols-outlined">add</span>
+              Добавить изделие
+            </button>
+          </form>
+        </section>
+
+        <section class="bg-white rounded-xl shadow-lg p-6">
+          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+            <span class="material-symbols-outlined text-green-500">analytics</span>
+            Быстрые действия
+          </h2>
+          <div class="space-y-4">
+            <button class="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-3 px-4 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-3" data-action="view-products">
+              <span class="material-symbols-outlined">list_alt</span>
+              <div class="text-left">
+                <div class="font-medium">Все изделия</div>
+                <div class="text-sm opacity-90">Просмотр всех продуктов</div>
+              </div>
+            </button>
+            <button class="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-3 px-4 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-3" data-action="max-profit">
+              <span class="material-symbols-outlined">trending_up</span>
+              <div class="text-left">
+                <div class="font-medium">Максимальная прибыль</div>
+                <div class="text-sm opacity-90">Найти самое прибыльное изделие</div>
+              </div>
+            </button>
+            <button class="w-full bg-gradient-to-r from-red-500 to-red-600 text-white py-3 px-4 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-3" data-action="expired-products">
+              <span class="material-symbols-outlined">warning</span>
+              <div class="text-left">
+                <div class="font-medium">Просроченные</div>
+                <div class="text-sm opacity-90">Изделия с нарушенным сроком</div>
+              </div>
+            </button>
+            <button class="w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white py-3 px-4 rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-3" data-action="sort-factories">
+              <span class="material-symbols-outlined">sort</span>
+              <div class="text-left">
+                <div class="font-medium">Сортировка заводов</div>
+                <div class="text-sm opacity-90">По объему производства</div>
+              </div>
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <section class="bg-white rounded-xl shadow-lg p-6 mb-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+          <span class="material-symbols-outlined text-orange-500">search</span>
+          Поиск и фильтрация
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Поиск по ID изделия</label>
+            <div class="flex gap-2">
+              <input
+                type="number"
+                id="productId"
+                class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                placeholder="ID изделия"
+              />
+              <button class="bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-colors duration-200" data-action="search-product">
+                <span class="material-symbols-outlined">search</span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">ID хлебозавода</label>
+            <div class="flex gap-2">
+              <input
+                type="number"
+                id="bakeryId"
+                class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                placeholder="ID завода"
+              />
+              <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors duration-200" data-action="search-bakery">
+                <span class="material-symbols-outlined">factory</span>
+              </button>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">Ингредиенты продукта</label>
+            <div class="flex gap-2">
+              <input
+                type="number"
+                id="ingredientProductId"
+                class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
+                placeholder="ID продукта"
+              />
+              <button class="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors duration-200" data-action="search-ingredients">
+                <span class="material-symbols-outlined">restaurant</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+              <span class="material-symbols-outlined text-primary-500 text-xl">inventory</span>
+            </div>
+            <span class="text-2xl font-bold text-gray-800">247</span>
+          </div>
+          <h3 class="font-semibold text-gray-700 mb-1">Всего изделий</h3>
+          <p class="text-sm text-gray-500">В системе</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+              <span class="material-symbols-outlined text-green-500 text-xl">restaurant</span>
+            </div>
+            <span class="text-2xl font-bold text-gray-800">89</span>
+          </div>
+          <h3 class="font-semibold text-gray-700 mb-1">Ингредиентов</h3>
+          <p class="text-sm text-gray-500">Уникальных</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+              <span class="material-symbols-outlined text-blue-500 text-xl">factory</span>
+            </div>
+            <span class="text-2xl font-bold text-gray-800">12</span>
+          </div>
+          <h3 class="font-semibold text-gray-700 mb-1">Хлебозаводов</h3>
+          <p class="text-sm text-gray-500">Активных</p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+              <span class="material-symbols-outlined text-red-500 text-xl">warning</span>
+            </div>
+            <span class="text-2xl font-bold text-gray-800">3</span>
+          </div>
+          <h3 class="font-semibold text-gray-700 mb-1">Нарушений</h3>
+          <p class="text-sm text-gray-500">Срока годности</p>
+        </div>
+      </section>
+
+      <footer class="mt-12 text-center py-6 border-t border-gray-200">
+        <p class="text-gray-500">© 2024 Система управления хлебозаводом. Все права защищены.</p>
+      </footer>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
