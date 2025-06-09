@@ -6,7 +6,7 @@ from app.routers import product, ingredient, bakery
 
 def create_app() -> FastAPI:
     app =  FastAPI(
-        title="ебучий хлебозавод"
+        title="хлебозавод"
     )
 
     app.add_middleware(
